@@ -1,10 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uz">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Project</title>
+  <title>Sayohat</title>
+
+  <!-- GOOGLE-FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed&display=swap" rel="stylesheet">
 
   <!-- STYLESHEETS -->
   <link rel="stylesheet" href="normalize.css">
@@ -12,7 +17,72 @@
 
 </head>
 <body>
+  <main class="main-content">
+    <div class="global-wrapper">
 
+      <!-- HERO -->
+      <div class="hero">
+        <div class="hero__content">
+          <h1 class="hero__heading1">Sayohat haqidagi eng qiziq <br>
+            bloglarni kuzatib boring.</h1>
+            <a class="hero__link" href="#">
+              <span class="hero__link-inner">
+                <span class="hero__link-text">top bloglar</span>
+              </span>
+            </a>
+        </div>
+      </div>
+
+
+      <!-- LAST-VIDEOS -->
+      <div class="videos">
+        <h2 class="videos__heading2">Eng so'nggi videolar</h2>
+        <ul class="videos__list">
+          <li class="videos__item">
+            <a class="videos__link" href="#">
+            <img class="videos__img" src="img/article-poster.jpg" alt="" width="160" height="90" srcset="img/article-poster.jpg 1x, img/article-poster@2x.jpg 2x">
+            <span class="videos__content">
+              <h3 class="videos__heading3">O'rmonda uchburchaksimon uy qurdik</h3>
+              <span class="videos__footer">
+                <span class="videos__time">1 hafta oldin</span>
+                <span class="videos__view">873 ming</span>
+              </span>
+            </span>
+          </a>
+          </li>
+
+          <li class="videos__item">
+            <a class="videos__link" href="#">
+            <img class="videos__img" src="img/article-poster-1.jpg" alt="" width="160" height="90" srcset="img/article-poster-1.jpg 1x, img/article-poster@2x-1.jpg 2x">
+            <span class="videos__content">
+              <h3 class="videos__heading3">Sibirliklarning qoldirib ketilgan uychalari</h3>
+              <span class="videos__footer">
+                <span class="videos__time">3 hafta oldin</span>
+                <span class="videos__view">819 ming</span>
+              </span>
+            </span>
+          </a>
+          </li>
+
+          <li class="videos__item">
+            <a class="videos__link" href="#">
+            <img class="videos__img" src="img/article-poster-2.jpg" alt="" width="160" height="90" srcset="img/article-poster-2.jpg 1x, img/article-poster@2x-2.jpg 2x">
+            <span class="videos__content">
+              <h3 class="videos__heading3">Yer-uyida mallarang kuchugim bilan tunab qoldik</h3>
+              <span class="videos__footer">
+                <span class="videos__time">1 oy oldin</span>
+                <span class="videos__view">3.9 million</span>
+              </span>
+            </span>
+          </a>
+          </li>
+        </ul>
+
+              <!-- BUTTON -->
+        <button class="button" type="button">Yana yuklash</button>
+      </div>
+    </div>
+  </main>
 
 
   <script src="js/main.js"></script>
